@@ -1,0 +1,8 @@
+Rails.application.routes.draw do
+  resources :users
+  resources :student2s
+  resources :students
+  resources :books
+  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  root 'application#hello'
+end
